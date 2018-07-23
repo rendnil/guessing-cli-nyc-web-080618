@@ -21,7 +21,7 @@ def run_guessing_game()
   elsif user_input.to_f == random_number
     puts "You guessed the correct number!"
   else
-    puts "The computer guessed #{random_number}."
+    puts "The computer guessed #{random_number.to_s}."
   end
 
 end  
