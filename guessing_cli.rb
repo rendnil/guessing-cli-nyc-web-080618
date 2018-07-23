@@ -3,6 +3,7 @@
 def run_guessing_game()
   random_number = rand(1..6)
   #puts "random number #{random_number}"
+  
   puts "Guess a number between 1 and 6."
   user_input = gets.chomp
   
@@ -25,4 +26,3 @@ def run_guessing_game()
 
 end  
 
-run_guessing_game
