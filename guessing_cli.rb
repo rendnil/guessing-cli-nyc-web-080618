@@ -5,7 +5,7 @@ def run_guessing_game()
   #puts "random number #{random_number}"
   user_input = nil
   random_number = 0
-  
+  puts 1
   #puts "Guess a number between 1 and 6."
   #user_input = gets.chomp
   
