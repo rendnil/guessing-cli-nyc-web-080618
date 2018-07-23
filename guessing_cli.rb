@@ -23,7 +23,7 @@ def run_guessing_game()
   end
 end
 
-puts "Goodbye"
+puts "Goodbye!"
      
     #if user_input.to_f != random_number
      # puts "The computer guessed #{rand(1..6)}"
